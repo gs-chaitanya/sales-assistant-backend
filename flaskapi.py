@@ -35,7 +35,7 @@ cache = caching.CachedContent.create(
             {\"dialogue\": \"\", \"pointers\": [\"\",\"\"]} ",
 
     contents=[file],
-    ttl=datetime.timedelta(minutes=15),
+    ttl=datetime.timedelta(days=1),
 )
 
 # create the model
